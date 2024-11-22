@@ -1,0 +1,218 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 70px; /* Ajusta según la altura de tu navbar */
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra todo el contenido verticalmente */
+}
+
+form {
+    max-width: 600px; /* Ajusta el ancho máximo del formulario */
+    margin: 20px auto; /* Centra el formulario horizontalmente y añade espacio arriba y abajo */
+    padding: 20px;
+    border: 1px solid #ccc; /* Borde del formulario */
+    background-color: #f2f2f2; /* Color de fondo del formulario */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra del formulario */
+    font-family: Arial, sans-serif; /* Fuente del texto */
+}
+
+form label {
+    font-weight: bold; /* Establece el texto del label en negrita */
+    display: block; /* Hace que cada label ocupe una línea completa */
+    margin-bottom: 5px; /* Añade un pequeño margen inferior para separación */
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="date"],
+form select,
+form textarea {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    padding: 8px; /* Espaciado interno */
+    margin-bottom: 10px; /* Espacio inferior entre campos */
+    border: 1px solid #ccc; /* Borde de los campos */
+    border-radius: 4px; /* Bordes redondeados */
+    box-sizing: border-box; /* Box-sizing para que el padding no incremente el ancho */
+    font-size: 14px; /* Tamaño de fuente */
+}
+
+form textarea {
+    resize: vertical; /* Permite redimensionar verticalmente */
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    font-size: 16px; /* Tamaño de fuente */
+    margin-top: 10px; /* Espacio superior */
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049; /* Color de fondo del botón al pasar el ratón */
+}
+
+h1 {
+    margin-top: 20px; /* Ajusta el espacio superior del h1 */
+}
+.boton-verde {
+    display: inline-block; /* Asegura que el botón se muestre en línea */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    margin-top: 10px; /* Espacio superior */
+    max-width: 200px; /* Ancho máximo del botón */
+    text-align: center; /* Centra el texto dentro del botón */
+}
+
+.boton-verde:hover {
+    background-color: #45a049; /* Color de fondo del botón al pasar el ratón */
+}
+h1, h2, .boton-verde {
+    text-align: center; /* Centra el texto */
+    font-weight: bold; /* Aplica negrita */
+}
+
+.boton-verde {
+    display: inline-block; /* Asegura que el botón se muestre en línea */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    margin-top: 10px; /* Espacio superior */
+    max-width: 200px; /* Ancho máximo del botón */
+}
+
+.boton-verde:hover {
+    background-color: #45a049; /* Color de fondo del botón al pasar el ratón */
+}
+.btn-primary {
+    background-color: #007bff; /* Color celeste */
+    color: white; /* Color del texto */
+    display: inline-block; /* Asegura que el botón se muestre en línea */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    margin-top: 10px; /* Espacio superior */
+    max-width: 200px; /* Ancho máximo del botón */
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+.btn-primary:hover {
+    background-color: #0069d9; /* Color de fondo del botón al pasar el ratón */
+}
+
+.boton-verde {
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    display: inline-block; /* Asegura que el botón se muestre en línea */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    margin-top: 10px; /* Espacio superior */
+    max-width: 200px; /* Ancho máximo del botón */
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+.boton-verde:hover {
+    background-color: #45a049; /* Color de fondo del botón al pasar el ratón */
+}
+.btn-primary {
+    background-color: #007bff; /* Color celeste */
+    color: white; /* Color del texto */
+    display: inline-block; /* Asegura que el botón se muestre en línea */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    text-align: center; /* Centra el texto horizontalmente */
+    margin: 10px auto; /* Margen vertical 10px y centrado horizontal */
+    width: 200px; /* Ancho del botón */
+}
+
+.btn-primary:hover {
+    background-color: #0069d9; /* Color de fondo del botón al pasar el ratón */
+}
+
+.boton-verde {
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    display: inline-block; /* Asegura que el botón se muestre en línea */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    text-align: center; /* Centra el texto horizontalmente */
+    margin: 10px auto; /* Margen vertical 10px y centrado horizontal */
+    width: 200px; /* Ancho del botón */
+}
+
+.boton-verde:hover {
+    background-color: #45a049; /* Color de fondo del botón al pasar el ratón */
+}
+.btn-primary {
+    background-color: #007bff; /* Color celeste */
+    color: white; /* Color del texto */
+    display: inline-block; /* Asegura que el botón se muestre en línea */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    text-align: center; /* Centra el texto horizontalmente */
+    margin: 10px auto; /* Margen vertical 10px y centrado horizontal */
+    width: 200px; /* Ancho del botón */
+}
+
+.btn-primary:hover {
+    background-color: #0069d9; /* Color de fondo del botón al pasar el ratón */
+}
+
+body {
+    background-color: #F8D0F3;
+}
+form {
+    background-color: #CDF8BE;
+}
+
+    .btn-custom {
+        background-color: #A70397;
+        color: white;
+    }
+    .solo {
+        background-color: #89037B;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .solo:hover {
+        background-color: #a22d96; /* Color más claro para hover */
+    }
